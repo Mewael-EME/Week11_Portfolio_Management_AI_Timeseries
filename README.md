@@ -133,7 +133,8 @@ statsmodels
 - statsmodels, pmdarima
 - scikit-learn
 - tensorflow / keras
-- scipy ```
+- scipy
+```
 
 
 🚀 How to Run the Pipeline
@@ -145,16 +146,24 @@ cd stock-data-analysis
 ```
 
 2. Run the data fetch script
-```python src/fetch_data.py```
+```
+python src/fetch_data.py
+```
 
-3. Run the preprocessing script
-```python src/preprocessing.py```
+4. Run the preprocessing script
+```
+python src/preprocessing.py
+```
 
-4. Check the generated file
-```The processed dataset will be saved as: data/adj_close_prices.csv```
+6. Check the generated file
+```
+The processed dataset will be saved as: data/adj_close_prices.csv
+```
 
-5. Open the notebook for EDA
-```jupyter notebook notebooks/01_data_fetch_and_eda.ipynb```
+8. Open the notebook for EDA
+```
+jupyter notebook notebooks/01_data_fetch_and_eda.ipynb
+```
 
 Replace Task1_Data_Preparation.ipynb with any other task notebook.
 
