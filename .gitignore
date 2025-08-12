@@ -20,6 +20,7 @@ data/*.parquet
 .venv/
 venv/
 env/
+venv310/
 
 # OS files
 .DS_Store
