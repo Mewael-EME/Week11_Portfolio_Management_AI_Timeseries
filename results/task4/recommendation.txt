@@ -1,0 +1,19 @@
+
+Recommended Portfolio Recommendation (based on forecasted TSLA expected return and historical BND/SPY):
+
+Max Sharpe (Tangency) Portfolio:
+ - Weights: OrderedDict([('TSLA', 0.0), ('BND', 0.53561), ('SPY', 0.46439)])
+ - Expected annual return: 7.04%
+ - Expected annual volatility: 9.11%
+ - Sharpe Ratio: 0.77
+
+Minimum Volatility Portfolio:
+ - Weights: OrderedDict([('TSLA', 0.0), ('BND', 0.94512), ('SPY', 0.05488)])
+ - Expected annual return: 2.38%
+ - Expected annual volatility: 5.30%
+ - Sharpe Ratio: 0.45
+
+Recommendation rationale:
+ - If the client prioritizes risk-adjusted returns, choose Max Sharpe portfolio.
+ - If the client prioritizes capital preservation, choose Min Volatility portfolio.
+ - Consider transaction costs, tax implications and rebalancing frequency before implementation.
