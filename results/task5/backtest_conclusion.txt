@@ -1,0 +1,1 @@
+Backtest Conclusion:\n- Strategy underperformed benchmark on annual return.\n- Strategy had a lower Sharpe Ratio than benchmark.\nStrategy (hold) total return: 10.39%, Benchmark total return: 12.47%\n
